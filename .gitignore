@@ -1,0 +1,8 @@
+# Ignore the backend folder
+/backend/node_modules
+
+# Ignore node_modules in shop-ui
+shop-ui/node_modules/
+
+# Ignore node_modules in user-ui
+user-ui/node_modules/
