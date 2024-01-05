@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navebar from './components/Navebar';
+import HomePage from './pages/HomePage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Order from './pages/Order';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div>
+          {/* Jai Shree ram */}
+          <Navebar/>
+         
+        <BrowserRouter>
+        <Routes>
+        <Route path="" element =  {<HomePage/>}/>
+        <Route path="/Orders" element = {<Order/>}/>
+        </Routes>
+        
+        </BrowserRouter>
+
+          {/* <HomePage/>
+          <NewItemForm/> */}
+        </div>
   );
 }
 

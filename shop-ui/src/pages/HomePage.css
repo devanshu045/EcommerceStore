@@ -1,0 +1,19 @@
+/* src/components/CustomContainer.css */
+.custom-container {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .custom-button {
+    width: 35%;
+    height: 80px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    background-color: #fff; /* Change to white on hover for light button */
+    color: #000; /* Change text color to black on hover for light button */
+  }
+  

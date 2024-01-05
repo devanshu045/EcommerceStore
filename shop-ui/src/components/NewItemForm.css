@@ -1,0 +1,30 @@
+/* src/components/CustomForm.css */
+.custom-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .custom-form {
+    width: 100vh;
+    /* max-width: 00px; Set a maximum width for the form */
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .label-css{
+    margin-top: 20px;
+  }
+  
+  
+  .custom-input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add a subtle box shadow on focus */
+  }
+  
